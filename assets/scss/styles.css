@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3.5rem 0 0 0;
+  font-family: 'Tinos', serif;
+  font-weight: initial;
+  overflow: hidden;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: initial;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 0.93rem;
+}
+
+.bd-grid {
+  max-width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #010A43;
+  color: #fff;
+  z-index: 100;
+}
+
+.nav {
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: 3.5rem;
+    left: 0;
+    background-color: rgba(1, 10, 67, 0.8);
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    z-index: 100;
+    transition: .5s;
+  }
+}
